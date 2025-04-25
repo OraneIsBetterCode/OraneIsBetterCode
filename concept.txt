@@ -1,0 +1,23 @@
+Starts with basic spam: click, get 1 coin.
+You can buy upgrades which gives different types of spam.
+Conveyor belt that sells at a specific speed.
+
+Events: //events are at random times
+ Random type of spam is worth 2x as much
+ Random upgrade is added for 5 seconds
+ If you click spam more than 100 times in the next 10 seconds, you get prize
+ Click random spam all around the screen, but if you click wrong one you lose
+
+Upgrades:
+ Conveyor belt speed upgrade
+ Spam worth upgrade
+ Workers, that are different spam types and give set amounts
+ Recruiters that buy workers (instead of upgrading the workers)
+
+Deals: //you will be given an option to accept these
+ Spam is worth 5x, workers work 2x less
+ Workers work 5x more, spam is worth 2x less
+ Sell all workers for 10x as much as you bought them for
+ Erase all progress, but get a multiplier for how much total money you have had
+ Flip a coin- if heads, +50% of total money. If tails, -50% of total money
+ 

@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>Spam Clicker</title>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+  <p id="spam_storage"></p>
+  <div class="dealsDiv">
+    <p class="deals">Spam is worth 5x, workers work 2x less.</p>
+    <button class="acceptButton">ACCEPT</button>
+    <button class="x">X</button>
+    </div>
+  <p class="money" id="money">$0</p>
+  <img onclick="spamClick()" src="assets/classic.png" class="spam" id="spam">
+  <div class="upgradesDiv">
+    <button id="nextUnlockButton"onclick="unlockSpam()"class="upgradeButton">Next Unlock $10</button>
+    <p></p>
+    <button id="hireWorkerButton"onclick="hireWorker()" class="upgradeButton">Hire Worker $200</button>
+    <p></p>
+    <button class="upgradeButton"onclick="hire_recruiter()">Hire Recruiter $1000</button>
+    <p></p>
+    <button class="upgradeButton" onclick="conveyor_upgrade()">Conveyor Upgrade $100</button>
+  </div>
+  <div id="spamSelectDiv" class="workersBuyDiv"></div>
+  <p id="storageDisplay" class="storageDisplay"></p>
+  <div id="conveyor" class="conveyor" onclick="speedUpConveyor()"><img class="conveyorSpam" id="conveyorSpam"></div>
+  <script src="script.js"></script>
+</body>
+
+</html>
